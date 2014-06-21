@@ -1,8 +1,7 @@
 # turing-machine
 
 Turing machine made in Clojure, pure functional way:
-1. Tape consists of 2 lists that have top elements (head elements) directed toward machine's head
-	Head of machine if head of left list
+1. Tape consists of 2 lists that have top elements (head elements) directed toward machine's head. Head of machine is the head of left list
 2. Machine state is left tape side, right tape side and machine state put into vector
 3. All state changes are cons'ed and head'ed via lazy sequences
 
